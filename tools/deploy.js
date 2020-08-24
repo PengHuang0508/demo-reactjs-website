@@ -22,6 +22,14 @@ import run from "./run";
 //   static: true,
 // };
 
+// Heroku
+const remote = {
+  name: "heroku",
+  url: "https://git.heroku.com/demo-reactjs-website.git",
+  branch: "master",
+  website: "",
+};
+
 // Azure Web Apps
 // const remote = {
 //   name: 'azure',
