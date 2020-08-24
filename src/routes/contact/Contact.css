@@ -1,0 +1,109 @@
+/**
+ * React Starter Kit (https://www.reactstarterkit.com/)
+ *
+ * Copyright © 2014-present Kriasoft, LLC. All rights reserved.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE.txt file in the root directory of this source tree.
+ */
+
+@import '../../components/variables.css';
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 1%;
+  padding: 1% 7%;
+}
+
+.emergency,
+.contact {
+  flex-basis: 45%;
+}
+
+.emergency {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.infoTitle,
+.title,
+.title2 {
+  font-weight: bold;
+}
+
+.infoTitle {
+  align-content: center;
+  color: #8a3244;
+  display: flex;
+  font-size: 1em;
+  font-weight: bold; 
+  justify-content: center;
+  padding: 15px 30px 3px 30px;
+}
+
+.spacer {
+  margin-right: 3px;
+}
+
+.title,
+.title2 {
+  color: #560a25;
+  font-size: 0.9em;
+  padding: 20px 50px 5px 50px;
+  text-align: center;
+}
+
+.title2 {
+  padding: 25px 50px 5px 50px;
+}
+
+.info {
+  padding-bottom: 20px;
+}
+
+.info:nth-child(1) {
+  padding: 0;
+}
+
+.formContainer {
+  padding-top: 2%;
+}
+
+@media screen and (max-width: 992px) {
+  .container {
+    align-items: baseline;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .contact {
+    flex-basis: 40%;
+  }
+
+  .emergency {
+    flex-basis: 56%;
+  }
+
+  .spacer {
+    margin-right: 5px;
+  }
+} 
+
+@media screen and (max-width: 480px) {
+  .container {
+    font-size: 0.95em;
+  }
+
+  .contact {
+    flex-basis: 100%;
+  }
+  
+  .emergency {
+    flex-basis: 100%;
+  }
+
+  .infoTitle {
+    padding: 15px 0 3px 0;
+  }
+} 

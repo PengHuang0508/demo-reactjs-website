@@ -1,0 +1,306 @@
+[
+  {
+    "id": "navigation.about",
+    "defaultMessage": "About",
+    "message": "关于",
+    "files": [
+      "src/components/Navigation/Navigation.js"
+    ]
+  },
+  {
+    "id": "navigation.contact",
+    "defaultMessage": "Contact",
+    "message": "联系",
+    "files": [
+      "src/components/Navigation/Navigation.js"
+    ]
+  },
+  {
+    "id": "navigation.home",
+    "defaultMessage": "Home",
+    "message": "主页",
+    "files": [
+      "src/components/Navigation/Navigation.js"
+    ]
+  },
+  {
+    "id": "navigation.services",
+    "defaultMessage": "Services",
+    "message": "服务",
+    "files": [
+      "src/components/Navigation/Navigation.js"
+    ]
+  },
+  {
+    "id": "about.summary",
+    "defaultMessage": "Nature, in the broadest sense, is the natural, physical, or material world or universe. 'Nature' can refer to the phenomena of the physical world, and also to life in general. The study of nature is a large, if not the only, part of science. Although humans are part of nature, human activity is often understood as a separate category from other natural phenomena.",
+    "message": "从广义上讲，自然是自然，物理或物质的世界或宇宙。 “自然”可以指物质世界的现象，也可以指一般的生命。 对自然的研究是科学的很大一部分，即使不是唯一的一部分。 尽管人类是自然的一部分，但人类活动通常被理解为与其他自然现象分开的类别。",
+    "files": [
+      "src/components/Page/Page.js"
+    ]
+  },
+  {
+    "id": "about.summary.min",
+    "defaultMessage": "Nature, in the broadest sense, is the natural, physical, or material world or universe. 'Nature' can refer to the phenomena of the physical world, and also to life in general. The study of nature is a large, if not the only, part of science.",
+    "message": "从广义上讲，自然是自然，物理或物质的世界或宇宙。 “自然”可以指物质世界的现象，也可以指一般的生命。 对自然的研究是科学的很大一部分，如果不是唯一的话。",
+    "files": [
+      "src/components/Page/Page.js"
+    ]
+  },
+  {
+    "id": "services.summary",
+    "defaultMessage": "A hospital is a health care institution providing patient treatment with specialized medical and nursing staff and medical equipment. The best-known type of hospital is the general hospital, which typically has an emergency department to treat urgent health problems ranging from fire and accident victims to a sudden illness. A district hospital typically is the major health care facility in its region, with many beds for intensive care and additional beds for patients who need long-term care. Specialized hospitals include trauma centers, rehabilitation hospitals, children's hospitals, seniors' (geriatric) hospitals, and hospitals for dealing with specific medical needs such as psychiatric treatment (see psychiatric hospital) and certain disease categories. Specialized hospitals can help reduce health care costs compared to general hospitals. Hospitals are classified as general, specialty, or government depending on the sources of income received.",
+    "message": "医院是一家医疗保健机构，为患者提供专业的医疗护理人员和医疗设备。 最有名的医院是综合医院，它通常设有急诊科，以处理从火灾和事故受害者到突发疾病的紧急卫生问题。 地方医院通常是该地区的主要卫生保健机构，设有许多重症监护病床，并为需要长期护理的患者增加了病床。 专门医院包括创伤中心，康复医院，儿童医院，老年（老年）医院以及处理诸如精神病治疗（请参见精神病医院）和某些疾病类别等特定医疗需求的医院。 与普通医院相比，专科医院可以帮助降低医疗保健成本。 根据所获得的收入来源，将医院分为普通医院，专科医院或政府医院。",
+    "files": [
+      "src/components/Page/Page.js"
+    ]
+  },
+  {
+    "id": "services.summary.min",
+    "defaultMessage": "A hospital is a health care institution providing patient treatment with specialized medical and nursing staff and medical equipment. The best-known type of hospital is the general hospital, which typically has an emergency department to treat urgent health problems ranging from fire and accident victims to a sudden illness. A district hospital typically is the major health care facility in its region, with many beds for intensive care and additional beds for patients who need long-term care.",
+    "message": "医院是一家医疗保健机构，为患者提供专业的医疗护理人员和医疗设备。 最有名的医院是综合医院，它通常设有急诊科，以处理从火灾和事故受害者到突发疾病的紧急卫生问题。 地方医院通常是该地区的主要卫生保健机构，设有许多重症监护病床，并为需要长期护理的患者增加了病床。",
+    "files": [
+      "src/components/Page/Page.js"
+    ]
+  },
+  {
+    "id": "about.rabbit",
+    "defaultMessage": "Rabbits are small mammals in the family Leporidae of the order Lagomorpha (along with the hare and the pika). Oryctolagus cuniculus includes the European rabbit species and its descendants, the world's 305 breeds of domestic rabbit. Sylvilagus includes 13 wild rabbit species, among them the seven types of cottontail.",
+    "message": "兔子是兔形目（与野兔和鼠兔一起）的兔科（Leporidae）中的小型哺乳动物。 穴孔兔包括欧洲兔种及其后代，即世界上305个家兔品种[1]。 Sylvilagus包括13种野兔，其中包括7种棉尾。",
+    "files": [
+      "src/components/Team/Team.js"
+    ]
+  },
+  {
+    "id": "about.owl",
+    "defaultMessage": "Owls are birds from the order Strigiformes, which includes over 200 species of mostly solitary and nocturnal birds of prey typified by an upright stance, a large, broad head, binocular vision, binaural hearing, sharp talons, and feathers adapted for silent flight. Exceptions include the diurnal northern hawk-owl and the gregarious burrowing owl.",
+    "message": "猫头鹰是Strigiformes阶的鸟类，其中包括200多种大多数为单生和夜行性的猛禽，典型特征是直立的姿势，大而宽的头部，双目视觉，双耳听觉，锋利的爪子和适合默默飞行的羽毛。 例外包括日间北部的鹰猫头鹰和合群的穴居猫头鹰。",
+    "files": [
+      "src/components/Team/Team.js"
+    ]
+  },
+  {
+    "id": "home.rabbit.min",
+    "defaultMessage": "The giant panda, also known as the panda bear or simply the panda, is a bear native to south central China. It is characterised by large, black patches around its eyes, over the ears, and across its round body.",
+    "message": "兔子是兔形目（与野兔和鼠兔一起）的兔科（Leporidae）中的小型哺乳动物。 穴孔兔包括欧洲兔种及其后代，即世界上305个家兔品种。 Sylvilagus包括13种野兔，其中包括7种棉尾。",
+    "files": [
+      "src/components/Team/Team.js"
+    ]
+  },
+  {
+    "id": "home.owl.min",
+    "defaultMessage": "Owls are birds from the order Strigiformes, which includes over 200 species of mostly solitary and nocturnal birds of prey typified by an upright stance, a large, broad head, binocular vision, binaural hearing, sharp talons, and feathers adapted for silent flight.",
+    "message": "猫头鹰是Strigiformes阶的鸟类，其中包括200多种大多数为单生和夜行性的猛禽，典型特征是直立的姿势，大而宽的头部，双目视觉，双耳听觉，锋利的爪子和适合默默飞行的羽毛。",
+    "files": [
+      "src/components/Team/Team.js"
+    ]
+  },
+  {
+    "id": "whyChooseUs1",
+    "defaultMessage": "Ea Lorem qui do tempor. Pariatur cillum cupidatat ullamco sunt cillum aute. Voluptate sit commodo eiusmod do et velit sit veniam nulla ex sit laboris fugiat.Cupidatat do proident mollit amet voluptate ad velit. Aute fugiat reprehenderit ex occaecat occaecat ut nisi quis quis dolor in. Laboris eu aute id magna aute tempor ipsum minim et mollit voluptate enim.",
+    "message": "",
+    "files": [
+      "src/components/WhyChooseUs/WhyChooseUs.js"
+    ]
+  },
+  {
+    "id": "whyChooseUs2",
+    "defaultMessage": "Aute qui cupidatat deserunt sunt incididunt reprehenderit voluptate in dolor irure. Ullamco excepteur mollit enim deserunt laborum ea cillum cillum. Tempor occaecat laboris incididunt esse ex culpa reprehenderit. Sint sunt dolor mollit incididunt id enim nisi excepteur ex irure ex ex reprehenderit. Sit quis culpa ullamco officia fugiat minim et enim esse.Incididunt est eiusmod in cupidatat do. Cillum velit sint laborum do laboris ut culpa proident et. Nostrud magna veniam nulla esse. Aliquip nostrud fugiat fugiat magna.",
+    "message": "",
+    "files": [
+      "src/components/WhyChooseUs/WhyChooseUs.js"
+    ]
+  },
+  {
+    "id": "whyChooseUs3",
+    "defaultMessage": "Deserunt adipisicing do sunt labore ut proident esse duis id enim exercitation voluptate. Adipisicing cillum qui irure laboris sit aliquip nostrud quis excepteur proident esse quis. Dolore dolore laboris eiusmod sit aute aute quis. Sunt culpa excepteur ipsum aute in in id dolore ad.Sunt culpa ipsum deserunt do enim ex occaecat ad occaecat commodo ex sint enim ut. Velit ad pariatur reprehenderit enim fugiat consequat quis in. Culpa ex deserunt id occaecat magna amet magna. Do esse do proident ea fugiat esse veniam aliqua ad do sint.",
+    "message": "",
+    "files": [
+      "src/components/WhyChooseUs/WhyChooseUs.js"
+    ]
+  },
+  {
+    "id": "whyChooseUs4",
+    "defaultMessage": "Sunt officia ad nisi veniam dolore nulla esse magna ullamco culpa elit incididunt in consequat. Exercitation reprehenderit laborum quis tempor Lorem eu. Et et commodo qui et aliquip. Tempor elit ex dolor consectetur incididunt.Tempor adipisicing exercitation laborum minim. Non occaecat ipsum ipsum deserunt ut non sunt laborum in sit. Lorem commodo voluptate ad excepteur consequat nostrud consequat ipsum amet consectetur eu duis nisi.",
+    "message": "",
+    "files": [
+      "src/components/WhyChooseUs/WhyChooseUs.js"
+    ]
+  },
+  {
+    "id": "btn.learnMore",
+    "defaultMessage": "Learn More",
+    "message": "了解更多",
+    "files": [
+      "src/routes/home/Home.js"
+    ]
+  },
+  {
+    "id": "btn.bookAppt",
+    "defaultMessage": "Book an Appointment",
+    "message": "在线预约",
+    "files": [
+      "src/components/Navigation/Navigation.js"
+    ]
+  },
+  {
+    "id": "hrs.fri",
+    "defaultMessage": "Friday",
+    "message": "星期五",
+    "files": [
+      "src/components/Hours/Hours.js"
+    ]
+  },
+  {
+    "id": "hrs.mon",
+    "defaultMessage": "Monday",
+    "message": "星期一",
+    "files": [
+      "src/components/Hours/Hours.js"
+    ]
+  },
+  {
+    "id": "hrs.sat",
+    "defaultMessage": "Saturday",
+    "message": "星期六",
+    "files": [
+      "src/components/Hours/Hours.js"
+    ]
+  },
+  {
+    "id": "hrs.sun",
+    "defaultMessage": "Sunday",
+    "message": "星期日",
+    "files": [
+      "src/components/Hours/Hours.js"
+    ]
+  },
+  {
+    "id": "hrs.thu",
+    "defaultMessage": "Thursday",
+    "message": "星期四",
+    "files": [
+      "src/components/Hours/Hours.js"
+    ]
+  },
+  {
+    "id": "hrs.tue",
+    "defaultMessage": "Tuesday",
+    "message": "星期二",
+    "files": [
+      "src/components/Hours/Hours.js"
+    ]
+  },
+  {
+    "id": "hrs.wed",
+    "defaultMessage": "Wednesday",
+    "message": "星期三",
+    "files": [
+      "src/components/Hours/Hours.js"
+    ]
+  },
+  {
+    "id": "hrs.title",
+    "defaultMessage": "Office Hours",
+    "message": "营业时间",
+    "files": [
+      "src/components/InfoItem/InfoItem.js"
+    ]
+  },
+  {
+    "id": "location.title",
+    "defaultMessage": "Location",
+    "message": "地址",
+    "files": [
+      "src/components/InfoItem/InfoItem.js"
+    ]
+  },
+  {
+    "id": "about.panda",
+    "defaultMessage": "The giant panda, also known as the panda bear or simply the panda, is a bear native to south central China. It is characterised by large, black patches around its eyes, over the ears, and across its round body.",
+    "message": "大熊猫，也称为熊猫熊，简称熊猫，是原产于中国中南部的熊。 它的特征是眼睛周围，耳朵上方和整个圆形身体上都有黑色的大斑点。",
+    "files": [
+      "src/components/Team/Team.js"
+    ]
+  },
+  {
+    "id": "home.panda.min",
+    "defaultMessage": "The giant panda, also known as the panda bear or simply the panda, is a bear native to south central China. It is characterised by large, black patches around its eyes, over the ears, and across its round body.",
+    "message": "大熊猫，也称为熊猫熊，简称熊猫，是原产于中国中南部的熊。 它的特征是眼睛周围，耳朵上方和整个圆形身体上都有黑色的大斑点。",
+    "files": [
+      "src/components/Team/Team.js"
+    ]
+  },
+  {
+    "id": "emergency.title",
+    "defaultMessage": "24 Hour Emergency & Critical Care",
+    "message": "24小时紧急热线",
+    "files": [
+      "src/components/InfoItem/InfoItem.js"
+    ]
+  },
+  {
+    "id": "title.about",
+    "defaultMessage": "About us",
+    "message": "关于我们",
+    "files": [
+      "src/components/Banner/Banner.js"
+    ]
+  },
+  {
+    "id": "title.contact",
+    "defaultMessage": "Contact",
+    "message": "联系方式",
+    "files": [
+      "src/components/Banner/Banner.js"
+    ]
+  },
+  {
+    "id": "title.home",
+    "defaultMessage": "Hospital of Animal Kingdom",
+    "message": "动物王国医院",
+    "files": [
+      "src/components/Banner/Banner.js"
+    ]
+  },
+  {
+    "id": "title.services",
+    "defaultMessage": "Services",
+    "message": "服务内容",
+    "files": [
+      "src/components/Banner/Banner.js"
+    ]
+  },
+  {
+    "id": "title.resources",
+    "defaultMessage": "Resources",
+    "message": "资源",
+    "files": [
+      "src/components/Banner/Banner.js"
+    ]
+  },
+  {
+    "id": "navigation.resources",
+    "defaultMessage": "Resources",
+    "message": "资源",
+    "files": [
+      "src/components/Navigation/Navigation.js"
+    ]
+  },
+  {
+    "id": "about.gorilla",
+    "defaultMessage": "Gorillas are ground-dwelling, predominantly herbivorous apes that inhabit the forest of central Sub-Saharan Africa. The genus Gorilla is divided into two species: the eastern gorillas and the western gorillas (both critically endangered), and either four or five subspecies. They are the largest living primates.",
+    "message": "大猩猩是居住在撒哈拉以南非洲中部森林的主要食草性猿类。 大猩猩属分为两种：东部大猩猩和西部大猩猩（均极度濒危），和四个或五个亚种。 他们是最大的活灵长类动物。",
+    "files": [
+      "src/components/Team/Team.js"
+    ]
+  },
+  {
+    "id": "home.gorilla.min",
+    "defaultMessage": "Gorillas are ground-dwelling, predominantly herbivorous apes that inhabit the forest of central Sub-Saharan Africa. The genus Gorilla is divided into two species: the eastern gorillas and the western gorillas (both critically endangered), and either four or five subspecies. They are the largest living primates.",
+    "message": "大猩猩是居住在撒哈拉以南非洲中部森林的主要食草性猿类。 大猩猩属分为两种：东部大猩猩和西部大猩猩（均极度濒危），和四个或五个亚种。 他们是最大的活灵长类动物。",
+    "files": [
+      "src/components/Team/Team.js"
+    ]
+  }
+]

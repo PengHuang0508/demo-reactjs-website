@@ -1,0 +1,158 @@
+.form {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-family: arial;
+  max-width: 1920px;
+  width: 100%;
+}
+
+.fields {
+  color: rgb(45,100, 135);
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.textInput,
+.checkbox,
+.date,
+.selectBox{
+  box-sizing: border-box;
+  display: inline;
+  flex-basis: 50%;
+  font-size: 1.1em;
+  font-weight: bold;
+  justify-content: space-between;
+  letter-spacing: 0.5pt;
+  margin: 0;
+  padding: 10px 30px 20px 30px;
+}
+
+.checkbox {
+  align-items: center;
+  display: flex;
+  padding-bottom: 50px;
+}
+
+.selectBox select{
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  border: none;
+  font-size: 1em;
+  height: 50px;
+  overflow: hidden;
+  padding: 5px;
+  width: 100%;
+}
+
+.message {
+  flex-basis: 100%;
+  padding: 0px 30px 50px 30px;
+}
+
+.message {
+  font-size: 1em;
+  font-weight: bold;
+  letter-spacing: 1pt;
+  padding-bottom: 180px;
+}
+
+.messageTitle {
+  font-size: 1.1em;
+  padding-bottom: 10px;
+}
+
+input,
+select,
+textarea {
+  box-sizing: border-box;
+  font-size: 1.05em;
+  width: 100%;
+}
+
+input,
+select {
+  border: none;
+  border-bottom: 2px solid rgba(105, 130, 220, 0.75);
+  color: #111;
+  font-weight: bold;
+  margin-bottom: 30px;
+  padding: 10px 15px;
+}
+
+input:focus,
+select:focus {
+  border-color: transparent;
+  color: #555;
+}
+
+input[type=checkbox] {
+  cursor: pointer;
+  flex-basis: 10%;
+  margin: 0;
+  padding: 0;
+  transform: scale(1.5);
+}
+
+input[type=checkbox]:focus {
+  outline: none;
+}
+
+textarea {
+  border-radius: 4px;
+  border: 2px solid rgba(105, 130, 220, 0.75);
+  color: #333;
+  height: 200%;
+  padding: 12px 20px;
+  resize: none;
+}
+
+.button {
+  background-color: rgb(150, 180, 230);
+  box-shadow: 2.1px 2.1px 3px 0 rgba(0, 0, 0, 0.3);
+  color: #fff;
+  cursor: pointer;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: bold;
+  height: 50px;
+  -webkit-justify-content: center;
+  justify-content: center;
+  letter-spacing: 3pt;
+  text-align: center;
+  margin: 1.5% 0 3% 0;
+  width: 200px;
+}
+
+.msgContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 25px 0;
+}
+
+.msg {
+  flex-basis: 100%;
+  font-size: 1.3em;
+  text-align: center;
+  padding: 10px 0 30px 0;
+}
+
+.msgContainer .button {
+  background-color: rgb(225, 50, 45);
+}
+
+@media screen and (max-width: 720px) {
+  .textInput,
+  .checkbox,
+  .date,
+  .selectBox {
+    flex-basis: 100%;
+  }
+}

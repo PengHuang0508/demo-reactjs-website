@@ -1,0 +1,67 @@
+@import '../variables.css';
+
+.navigationContainer {
+  align-items: center;
+  background-color: rgba(50, 50, 50, 0.7);
+  box-sizing: border-box;
+  display: flex;
+  font-size: 15px;
+  height: 7vh; 
+  left: 0;
+  min-height: 50px;
+  position: fixed;
+  right: 0;
+  text-align: center;
+  top: 0;
+  width: 100vw;  
+  z-index: 99;
+}
+
+.apmtRequest {
+  animation: neon 5s linear infinite;
+  color: rgb(180, 175, 220);
+  cursor: pointer;
+  font-size: 1em;
+  opacity: 0.7; 
+  flex-basis: 10%;
+}
+
+@keyframes neon {
+  33% { color: rgb(200, 175, 200)  }
+  66% { color: rgb(150, 200, 250); }
+}
+
+.linkContainer {
+  display: inline-flex;
+  justify-content: center;
+  flex-basis: 89%;
+  margin-left: -1%;
+  margin-right: 1%;
+}
+
+.link {
+  border-right: 3px groove rgba(50, 50, 50, 0.3);
+  cursor: pointer;
+  display: flex;
+  font-size: 1.3em;
+  justify-content: center;
+  text-decoration: none;
+  width: 25%;
+}
+
+.link:last-child {
+  border: none;
+}
+
+.link,
+.link:visited {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.link:hover {
+  color: rgba(255, 255, 255, 1);
+}
+
+.lanSwitcher {
+  flex-basis: 7%;
+}

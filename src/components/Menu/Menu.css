@@ -1,0 +1,58 @@
+@import "../variables.css";
+
+.root {
+  align-items: center;
+  background-color: rgba(50, 50, 50, 0.7);
+  box-sizing: border-box;
+  color: rgb(225, 225, 225);
+  display: flex;
+  font-family: Arial;
+  font-size: 15px;
+  height: 7vh;
+  justify-content: space-around;
+  left: 0;
+  min-height: 50px;
+  position: fixed;
+  right: 0;
+  text-align: center;
+  top: 0;
+  width: 100vw;
+  z-index: 99;
+}
+
+.linkContainer {
+  display: flex;
+  justify-content: center;
+  width: 75%;
+}
+
+.link {
+  border-right: 3px groove rgba(33, 33, 33, 0.3);
+  cursor: pointer;
+  display: flex;
+  font-size: 1.3em;
+  justify-content: center;
+  text-decoration: none;
+  width: 25%;
+}
+
+.link i:hover {
+  animation: spongy 1.8s linear infinite;
+  color: rgb(130, 150, 190);
+  text-decoration: none;
+}
+
+@keyframes spongy {
+  33% {
+    transform: rotate(-3deg);
+  }
+  50% {
+    transform: rotate(5deg) scale(1.05);
+  }
+  66% {
+    transform: rotate(-3deg);
+  }
+}
+.lanSwitcher {
+  width: 15%;
+}

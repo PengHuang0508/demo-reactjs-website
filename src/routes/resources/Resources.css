@@ -1,0 +1,99 @@
+@import "../../components/variables.css";
+
+/* Client Forms */
+.formContainer {
+  display: inline-flex;
+}
+
+.formName {
+  color: rgb(35, 150, 90);
+  float: left;
+  font-weight: bold;
+}
+
+.formLinkContainer {
+  display: inline-flex;
+  float: right;
+}
+
+.formLink {
+  background-color: transparent;
+  border: none;
+  color: rgb(20, 100, 70);
+  cursor: pointer;
+  padding-right: 10px;
+  text-decoration: underline;
+}
+
+.spacer {
+  margin-right: 35px;
+}
+
+/* Pet Insurance */
+.trupanionTitleWrapper {
+  color: rgb(120, 110, 90);
+  display: flex;
+  justify-content: center;
+}
+
+.trupanionTitle {
+  font-size: 1.7em;
+  font-weight: bold;
+  padding: 0 10px 25px 0;
+}
+
+.trupanionText {
+  font-size: 1em;
+  letter-spacing: 0.5px;
+  line-height: 1.4em;
+}
+.trupanionTextSm {
+  font-size: 0.8em;
+  padding: 10px 0;
+}
+
+/* Table of Animal Shelters in Winnipeg */
+.adoptContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 100%;
+}
+
+.adoptItem {
+  text-align: right;
+  background-color: rgb(90, 180, 145);
+  color: #ddd;
+  padding: 8px;
+  margin: 5px;
+  min-width: 250px;
+  flex-basis: 25%;
+}
+
+.adoptItem:hover {
+  filter: opacity(0.8);
+}
+
+.adoptInfoTitle {
+  color: #fff;
+  font-weight: bold;
+}
+
+.adoptInfoTitle:hover {
+  color: rgb(50, 75, 185);
+}
+
+@media screen and (max-width: 1280px) {
+  .spacer {
+    padding: 0 5px 0 45px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .formName {
+    padding-right: 20px;
+  }
+  .spacer {
+    display: none;
+  }
+}

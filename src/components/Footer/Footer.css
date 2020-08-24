@@ -1,0 +1,83 @@
+@import "../variables.css";
+
+.footerContainer {
+  background: rgb(10, 30, 80);
+  color: #ddd;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  flex-grow: 2;
+  flex-shrink: 0;
+  letter-spacing: 0.7pt;
+  width: 100%;
+}
+
+.title {
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 7px 0 3px 0;
+}
+
+.text {
+  font-size: 1em;
+}
+
+a {
+  color: #ddd;
+  text-decoration: none;
+}
+
+.socialMedia {
+  color: #ddd;
+  padding-bottom: 5px;
+}
+
+.spacerLg {
+  padding: 0 10px;
+}
+
+.textSm {
+  font-size: 0.8em;
+}
+
+.email {
+  font-weight: bold;
+  padding-bottom: 7px;
+}
+
+.contactForm {
+  text-decoration: underline;
+}
+
+.footnoteContainer {
+  text-align: center;
+}
+
+.spacer {
+  color: #ddd;
+  padding: 0 5px;
+}
+
+@media screen and (max-width: 992px) {
+  .container {
+    flex-basis: 50%;
+    padding-bottom: 3%;
+  }
+
+  .title {
+    padding-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    flex-basis: 100%;
+    padding-bottom: 7%;
+  }
+}

@@ -1,0 +1,127 @@
+@import '../variables.css';
+
+.container {
+  background-color: #ddd;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  box-sizing: border-box;
+  font-family: Arial;
+  height: 30vw;
+  max-height: 720px;
+  min-height: 360px;
+  padding: 30px 50px 70px 50px;
+}
+
+.dialogue {
+  width: 40%;
+  height: 100%;
+  padding: 20px 10px;
+  background-color: rgba(255,255,255, 0.5);
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: column;
+  -webkit-flex-direction: column;
+  justify-content: space-between;
+  -webkit-justify-content: space-between;
+  align-items: center;
+  -webkit-align-items: center;
+}
+
+.title {
+  color: rgb(70, 45, 10);
+  flex-basis: 20%;
+  font-size: 1.3em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.text {
+  color: #333;
+  flex-basis: 80%;
+  font-size: 1.3em;
+  line-height: 130%;
+  text-align: center;
+}
+
+.button {
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: column;
+  -webkit-flex-direction: column;
+  justify-content: center;
+  -webkit-justify-content: center;
+
+  width: 90%;
+  height: 15%;
+  background-color: #bbe1e8;
+  box-shadow: 2.1px 2.1px 3px 0 rgba(0, 0, 0, 0.3);
+  font-size: 1em;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-align: center;
+  color: rgba(100, 48, 33, 0.8);
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1240px) {
+  .container {
+    height: 33vw;
+  }
+
+  .dialogue {
+    width: 50%;
+  }
+
+  .text {
+    font-size: 1.3em;
+    line-height: 100%;
+  }
+
+  .button {
+    height: 13%;
+    font-size: 0.9em;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .container {
+    height: 40vw;
+    padding: 30px 50px 70px 30px;
+  }
+
+  .dialogue {
+    width: 100%;
+  }
+
+  .text {
+    font-size: 1.2em;
+    padding: 0 30px;
+  }
+
+  .button {
+    height: 15%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    background-color: rgba(70, 160, 110, 0.1);;
+    background-size: 0%; 
+  }
+
+  .title {
+    color: rgb(40, 40, 5);
+  }
+
+  .text {
+    color: #333;
+    font-size: 1em;
+    padding: 15px 0 0 0;
+  }
+
+  .button {
+    color: #222;
+  }
+
+}

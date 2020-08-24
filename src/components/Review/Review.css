@@ -1,0 +1,10 @@
+@import '../variables.css';
+
+* {
+  min-height: 0;
+  min-width: 0;
+}
+
+.reviewContainer {
+  max-width: 992px;
+}

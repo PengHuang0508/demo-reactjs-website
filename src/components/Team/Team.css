@@ -1,0 +1,107 @@
+@import '../variables.css';
+
+.teamContainer {
+  color: #444;
+  font-size: 1em;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  padding-right: 5%;
+}
+
+.nameTag {
+  align-items: center;
+  display: flex;
+  height: 10vw;
+  margin-bottom: -15px;
+  max-height: 7vh;
+  min-height: 80px;
+  width: auto;
+}
+
+.portrait{
+  max-height: 60%;
+  min-height: 50px;
+  min-width: 50px;
+  width: auto;
+}
+
+.info {
+  color: rgb(60, 145, 100);
+  font-size: 1em;
+  line-height: 1.4em;
+  max-height: 100%;
+  padding-left: 20px;
+}
+
+.name,
+.position,
+.edu {
+  margin: 0;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+.position {
+  font-size: 1em;
+  font-style: italic;
+}
+
+/* Education info */
+.edu {
+  font-size: 0.95em;
+  line-height: 1.2em;
+}
+
+.text {
+  letter-spacing: 0.5pt;
+  margin: 10px 0 20px 0;
+}
+
+@media screen and (max-width: 992px) {
+  .nameTag {
+    height: 13vw;
+  }
+
+  .name {
+    font-size: 1.1em;
+  }
+
+  .position {
+    font-size: 0.95em;
+  }
+
+  .edu {
+    font-size: 0.85em;
+    line-height: 1.5em;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .nameTag {
+    height: 15vw;
+  }
+
+  .name,
+  .position {
+    margin-bottom: -1%;
+  }
+
+  .name {
+    font-size: 1em;
+  }
+
+  .position {
+    font-size: 0.9em;
+  }
+
+  .edu {
+    font-size: 0.8em;
+    line-height: 1.2em;
+  }
+}

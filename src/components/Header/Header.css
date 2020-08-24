@@ -1,0 +1,56 @@
+
+@import '../variables.css';
+
+/* 
+* {
+  margin: 0;
+}
+
+:root {
+  --brand-color: #61dafb;
+}
+
+.root {
+  background: #373277;
+  background-position: center;
+  color: #fff;
+}
+
+.container {
+  background-color: #373277;
+  height: 100%;
+  margin: 0;
+  padding: 1px 0px;
+
+  height: 867px;
+  min-height: 240px;
+  max-width: var(--max-content-width);
+}
+
+.brand {
+  color: color(var(--brand-color) lightness(+10%));
+  text-decoration: none;
+  font-size: 1.75em; ~28px
+}
+
+.brandTxt {
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 992px) {
+  .banner {
+    font-size: 0.9em;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .banner {
+    padding-top: 20px;
+  }
+
+  .bannerTitle {
+    font-size: 3em;
+  }
+}
+
+ */

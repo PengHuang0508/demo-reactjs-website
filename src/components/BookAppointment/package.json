@@ -1,0 +1,6 @@
+{
+  "name": "BookAppointment",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./BookAppointment.js"
+}

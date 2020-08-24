@@ -1,0 +1,81 @@
+@import '../variables.css';
+
+.container {
+  position: relative;
+  width: 100vw;
+  z-index: 99;
+}
+
+.menuContainer {
+  font-family: arial;
+  font-size: 1.2em;
+  left: 0;
+  position: fixed;
+  text-align: center;
+  top: 0px;
+  width: 10vh;
+  max-width: 70px;
+  min-width: 50px;
+}
+
+.menuContainer button {
+  background-color: rgba(15, 65, 100, 0.95);
+  border: none;
+  box-shadow: 0 -5px -5px rgba(0, 0, 0, 0.25);
+}
+
+.menuContainer button:focus {
+  outline: none;
+}
+
+.menuButton {
+  color: #ddd;
+  cursor: pointer;
+  font-size: 1.2em;
+  font-weight: bold;
+  height: 10vh;
+  max-height: 70px;
+  min-height: 50px;
+  width: 100%;
+}
+
+/* Placeholder for navigation menu */
+.nav {
+  cursor: none;
+  transition: all 0.3s cubic-bezier(.45, .65, .75, .65);
+  overflow: hidden;
+}
+
+/* All the link buttons */
+.linkBtn {
+  align-items: center;
+  background-color: #333;
+  cursor: pointer;
+  display: flex;
+  height: 10vh;
+  justify-content: space-around;
+  max-height: 70px;
+  min-height: 50px;
+}
+
+.linkBtn:hover {
+  background-color: rgba(0, 0, 0 ,0.7);
+}
+
+/* FontAwesome icons */
+.linkBtn i {
+  color: #ddd;
+  text-decoration: underline;
+  text-decoration-color: rgba(255, 255, 255, 0.1);
+}
+
+.linkBtn i:hover {
+  animation: spongy 1.8s linear infinite;
+  text-decoration: none;
+}
+
+@keyframes spongy {
+  33% { transform: rotate(-3deg); }
+  50% { transform: rotate(5deg) scale(1.05); }
+  66% { transform: rotate(-3deg); }
+}
